@@ -1,0 +1,15 @@
+{
+  "name": "rate",
+  "version": "1.0.0",
+  "main": "ratelimmiter.js",
+  "scripts": {
+    "dev": "node ratelimmiter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}

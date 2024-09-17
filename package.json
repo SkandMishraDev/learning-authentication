@@ -1,0 +1,15 @@
+{
+  "name": "middlewares3.1",
+  "version": "1.0.0",
+  "description": "authentictication code",
+  "main": "authentication.js",
+  "scripts": {
+    "dev": "node authentication.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}

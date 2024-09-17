@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to My Basic Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>About This Website</h2>
+        <p>This is a basic HTML website template. You can add your own content and customize it as you like.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Basic Website</p>
+    </footer>
+    <script>
+        async function getAnimalData(){
+            const responce = await fetch("https://fakerapi.it/api/v1/persons");
+            const finalData =await responce.json();
+            console.log(finalData);
+        }
+    </script>
+    <text-align:centre>
+    <button onclick="getAnimalData()">Get Animal Data</button>
+    </text-align:centre>
+</body>
+
+</html>
