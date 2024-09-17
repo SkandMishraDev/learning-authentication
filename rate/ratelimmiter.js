@@ -21,7 +21,7 @@ app.use(function(req,res,next){
     }
 })
 app.get("/",function(req,res){
-
+    res.send("hii");
 });
  
 app.listen(3000,()=>{
